@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[The empty browser is Lanuched]]>
+    </line>
+    <line>
+      <![CDATA[Browser window is Maximized]]>
+    </line>
+    <line>
+      <![CDATA[User Navigted to HomePage Suceesfully]]>
+    </line>
+    <line>
+      <![CDATA[Shop. Books]]>
+    </line>
+    <line>
+      <![CDATA[User Login Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[successfully clickedShop. Books]]>
+    </line>
+    <line>
+      <![CDATA[User Logout Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Server Closed Sucessfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="205320" started-at="2023-01-23T11:52:09 IST" finished-at="2023-01-23T11:55:34 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="205320" started-at="2023-01-23T11:52:09 IST" finished-at="2023-01-23T11:55:34 IST">
+      <class name="testCases.Testcase_003">
+        <test-method status="PASS" signature="browserSetUp(java.lang.String)[pri:0, instance:testCases.Testcase_003@610694f1]" name="browserSetUp" is-config="true" duration-ms="53058" started-at="2023-01-23T11:52:09 IST" finished-at="2023-01-23T11:53:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The empty browser is Lanuched]]>
+            </line>
+            <line>
+              <![CDATA[Browser window is Maximized]]>
+            </line>
+            <line>
+              <![CDATA[User Navigted to HomePage Suceesfully]]>
+            </line>
+            <line>
+              <![CDATA[Shop. Books]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method status="PASS" signature="LoginUser()[pri:0, instance:testCases.Testcase_003@610694f1]" name="LoginUser" is-config="true" duration-ms="71575" started-at="2023-01-23T11:53:02 IST" finished-at="2023-01-23T11:54:14 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[User Login Sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginUser -->
+        <test-method status="PASS" signature="ToClickOnBooksPage()[pri:0, instance:testCases.Testcase_003@610694f1]" name="ToClickOnBooksPage" duration-ms="1752" started-at="2023-01-23T11:54:14 IST" finished-at="2023-01-23T11:54:15 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[successfully clickedShop. Books]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ToClickOnBooksPage -->
+        <test-method status="PASS" signature="LogOut()[pri:0, instance:testCases.Testcase_003@610694f1]" name="LogOut" is-config="true" duration-ms="74493" started-at="2023-01-23T11:54:15 IST" finished-at="2023-01-23T11:55:30 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[User Logout Sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:testCases.Testcase_003@610694f1]" name="quitBrowser" is-config="true" duration-ms="4357" started-at="2023-01-23T11:55:30 IST" finished-at="2023-01-23T11:55:34 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Server Closed Sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- testCases.Testcase_003 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
