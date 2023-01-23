@@ -8,7 +8,7 @@
       <![CDATA[Browser window is Maximized]]>
     </line>
     <line>
-      <![CDATA[User Navigted to HomePage Suceesfully]]>
+      <![CDATA[User Navigted to HomePage Succesfully]]>
     </line>
     <line>
       <![CDATA[Shop. Books]]>
@@ -17,21 +17,15 @@
       <![CDATA[User Login Sucessfully]]>
     </line>
     <line>
-      <![CDATA[successfully clickedShop. Books]]>
-    </line>
-    <line>
-      <![CDATA[User Logout Sucessfully]]>
-    </line>
-    <line>
-      <![CDATA[Server Closed Sucessfully]]>
+      <![CDATA[succesfully clicked]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="205320" started-at="2023-01-23T11:52:09 IST" finished-at="2023-01-23T11:55:34 IST">
+  <suite name="Default suite" duration-ms="52282" started-at="2023-01-23T14:50:53 IST" finished-at="2023-01-23T14:51:45 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="205320" started-at="2023-01-23T11:52:09 IST" finished-at="2023-01-23T11:55:34 IST">
-      <class name="testCases.Testcase_003">
-        <test-method status="PASS" signature="browserSetUp(java.lang.String)[pri:0, instance:testCases.Testcase_003@610694f1]" name="browserSetUp" is-config="true" duration-ms="53058" started-at="2023-01-23T11:52:09 IST" finished-at="2023-01-23T11:53:02 IST">
+    <test name="Default test" duration-ms="52282" started-at="2023-01-23T14:50:53 IST" finished-at="2023-01-23T14:51:45 IST">
+      <class name="testCases.TestCase_008">
+        <test-method status="PASS" signature="browserSetUp(java.lang.String)[pri:0, instance:testCases.TestCase_008@610694f1]" name="browserSetUp" is-config="true" duration-ms="37437" started-at="2023-01-23T14:50:53 IST" finished-at="2023-01-23T14:51:31 IST">
           <params>
             <param index="0">
               <value>
@@ -47,42 +41,109 @@
               <![CDATA[Browser window is Maximized]]>
             </line>
             <line>
-              <![CDATA[User Navigted to HomePage Suceesfully]]>
+              <![CDATA[User Navigted to HomePage Succesfully]]>
             </line>
             <line>
               <![CDATA[Shop. Books]]>
             </line>
           </reporter-output>
         </test-method> <!-- browserSetUp -->
-        <test-method status="PASS" signature="LoginUser()[pri:0, instance:testCases.Testcase_003@610694f1]" name="LoginUser" is-config="true" duration-ms="71575" started-at="2023-01-23T11:53:02 IST" finished-at="2023-01-23T11:54:14 IST">
+        <test-method status="PASS" signature="LoginUser()[pri:0, instance:testCases.TestCase_008@610694f1]" name="LoginUser" is-config="true" duration-ms="10677" started-at="2023-01-23T14:51:31 IST" finished-at="2023-01-23T14:51:41 IST">
           <reporter-output>
             <line>
               <![CDATA[User Login Sucessfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- LoginUser -->
-        <test-method status="PASS" signature="ToClickOnBooksPage()[pri:0, instance:testCases.Testcase_003@610694f1]" name="ToClickOnBooksPage" duration-ms="1752" started-at="2023-01-23T11:54:14 IST" finished-at="2023-01-23T11:54:15 IST">
+        <test-method status="PASS" signature="clickOnWishList()[pri:0, instance:testCases.TestCase_008@610694f1]" name="clickOnWishList" duration-ms="2135" started-at="2023-01-23T14:51:41 IST" finished-at="2023-01-23T14:51:43 IST">
           <reporter-output>
             <line>
-              <![CDATA[successfully clickedShop. Books]]>
+              <![CDATA[succesfully clicked]]>
             </line>
           </reporter-output>
-        </test-method> <!-- ToClickOnBooksPage -->
-        <test-method status="PASS" signature="LogOut()[pri:0, instance:testCases.Testcase_003@610694f1]" name="LogOut" is-config="true" duration-ms="74493" started-at="2023-01-23T11:54:15 IST" finished-at="2023-01-23T11:55:30 IST">
+        </test-method> <!-- clickOnWishList -->
+        <test-method status="FAIL" signature="LogOut()[pri:0, instance:testCases.TestCase_008@610694f1]" name="LogOut" is-config="true" duration-ms="1616" started-at="2023-01-23T14:51:43 IST" finished-at="2023-01-23T14:51:45 IST">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a class="menubar-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="/samples/TestComplete14/smartstore/Customer/Info" rel="nofollow">...</a> is not clickable at point (1194, 21). Other element would receive the click: <a id="wishlist-tab" class="nav-link active show loaded" data-toggle="tab" href="#occ-wishlist" role="tab" data-url="/samples/TestComplete14/smartstore/ShoppingCart/OffCanvasWishlist" aria-selected="true">...</a>
+  (Session info: chrome=109.0.5414.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MUJEEB', ip: '10.10.61.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53414}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5a0c6a4c71d52030e75c9888c7820bab]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="menubar-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="/samples/TestComplete14/smartstore/Customer/Info" rel="nofollow">...</a> is not clickable at point (1194, 21). Other element would receive the click: <a id="wishlist-tab" class="nav-link active show loaded" data-toggle="tab" href="#occ-wishlist" role="tab" data-url="/samples/TestComplete14/smartstore/ShoppingCart/OffCanvasWishlist" aria-selected="true">...</a>
+  (Session info: chrome=109.0.5414.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MUJEEB', ip: '10.10.61.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53414}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5a0c6a4c71d52030e75c9888c7820bab
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy13.click(Unknown Source)
+at testCases.BaseClass1.LogOut(BaseClass1.java:60)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
-            <line>
-              <![CDATA[User Logout Sucessfully]]>
-            </line>
           </reporter-output>
         </test-method> <!-- LogOut -->
-        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:testCases.Testcase_003@610694f1]" name="quitBrowser" is-config="true" duration-ms="4357" started-at="2023-01-23T11:55:30 IST" finished-at="2023-01-23T11:55:34 IST">
+        <test-method status="SKIP" signature="quitBrowser()[pri:0, instance:testCases.TestCase_008@610694f1]" name="quitBrowser" is-config="true" duration-ms="-1674465705673" started-at="2023-01-23T14:51:45 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
-            <line>
-              <![CDATA[Server Closed Sucessfully]]>
-            </line>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
-      </class> <!-- testCases.Testcase_003 -->
+      </class> <!-- testCases.TestCase_008 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

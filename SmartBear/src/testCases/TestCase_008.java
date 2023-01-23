@@ -9,7 +9,6 @@ public class TestCase_008 extends BaseClass1 {
 		BasePage b1=new BasePage(driver);
 		b1.getWish1().click();
 		Thread.sleep(1000);
-		b1.getWish1().click();
 		Reporter.log("succesfully clicked", true);
 	}
 		

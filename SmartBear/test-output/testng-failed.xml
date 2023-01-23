@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.Testcase_003">
+      <class name="testCases.TestCase_008">
         <methods>
           <include name="browserSetUp"/>
+          <include name="clickOnWishList"/>
           <include name="LogOut"/>
           <include name="LoginUser"/>
-          <include name="ToClickOnBooksPage"/>
           <include name="quitBrowser"/>
         </methods>
-      </class> <!-- testCases.Testcase_003 -->
+      </class> <!-- testCases.TestCase_008 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
